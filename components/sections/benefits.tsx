@@ -24,7 +24,7 @@ export function BenefitsSection() {
                     className="p-8 bg-green-900 text-white rounded-lg shadow-md transition duration-300 hover:shadow-xl"
                 >
                   <div className="flex flex-col items-center">
-                    <Smile className="h-10 w-10 text-yellow-300 mb-4"/>
+                    <Smile className="h-10 w-10 text-green-500 mb-4"/>
                     <p className="text-lg font-medium">{benefit}</p>
                   </div>
                 </Card>

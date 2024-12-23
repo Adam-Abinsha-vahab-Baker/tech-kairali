@@ -8,7 +8,7 @@ const services = [
     title: 'Systematic Savings',
     description: 'Join our community of savers with fixed monthly contributions. Our structured approach helps you build a robust financial future.',
     icon: Landmark,
-    color: 'text-blue-600',
+    color: 'text-green-600',
   },
   {
     title: 'Fund Auctions',
@@ -20,7 +20,7 @@ const services = [
     title: 'Low-Interest Alternative',
     description: 'Experience freedom from high-interest rates of conventional loans. Our chit funds offer a cost-effective way to manage your finances.',
     icon: Shield,
-    color: 'text-purple-600',
+    color: 'text-green-600',
   },
 ];
 

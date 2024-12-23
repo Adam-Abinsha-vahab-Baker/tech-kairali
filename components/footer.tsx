@@ -16,7 +16,7 @@ export default function Footer() {
                   height={200}
                   className="mb-4 brightness-0 invert"
               />
-              <p className="text-sm text-green-300 text-center  md:text-left">
+              <p className="text-xs text-green-300 text-center  md:text-left">
                 your trusted partner for all your financial needs.
               </p>
             </div>

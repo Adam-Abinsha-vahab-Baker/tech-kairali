@@ -36,7 +36,7 @@ export default function Footer() {
               <ul className="space-y-2 text-green-300">
                 <li>SRA-29 Aman Vadakkumbhagam Kazhakkootam</li>
                 <li>Phone: +91 6238175537</li>
-                <li>Email: techkairali24@gmail.com</li>
+                <li>Email: techkairalis@gmail.com</li>
               </ul>
             </div>
 

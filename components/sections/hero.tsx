@@ -36,10 +36,10 @@ export function HeroSection() {
                 >
                     {/* Main heading */}
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white">
-            <span className="bg-gradient-to-r from-green-300 to-emerald-400 bg-clip-text text-transparent">
-              Fast & Simple
+            <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+              Instant
             </span>{' '}
-                        <span className="text-white">Business Loans</span>
+                        <span className="text-white">Gold Loans</span>
                     </h1>
 
                     {/* Subheading */}
@@ -49,8 +49,7 @@ export function HeroSection() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="text-xl md:text-2xl text-gray-100 max-w-[700px] mx-auto leading-relaxed"
                     >
-                        Fuel your business growth with quick, affordable small loans from Tech Kairali.
-                        Flexible repayment, minimal paperwork, and funds in hand when you need them most.
+                        Empowering small businesses with fast and affordable financing. Tech Kairali Finance provides quick access to capital, simple documentation, and flexible repayment terms to support inventory purchases, business expansion, equipment upgrades, and day-to-day operations.
                     </motion.p>
 
                     {/* CTA Buttons */}

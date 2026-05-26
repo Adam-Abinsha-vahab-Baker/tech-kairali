@@ -2,12 +2,12 @@ import { Card } from '@/components/ui/card';
 import { CheckCircle,Smile } from 'lucide-react';
 
 const benefits = [
-  'Flexible financial planning and savings',
-  'Access to funds for investments',
-  'Support for unforeseen expenses',
-  'Structured approach to growth',
-  'Community-based saving system',
-  'Regular financial discipline',
+  'Fast loan approval within 48 hours',
+  'Flexible repayment schedules',
+  'Low interest rates for small businesses',
+  'Minimal documentation required',
+  'No collateral for eligible micro loans',
+  'Dedicated relationship manager support',
 ];
 
 export function BenefitsSection() {
@@ -15,7 +15,7 @@ export function BenefitsSection() {
       <section id="benefits" className="py-20 bg-gradient-to-b from-white to-green-100">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-green-950 mb-12">
-            Benefits of Our Chit Funds
+            Benefits of Our Business Loans
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {benefits.map((benefit, index) => (

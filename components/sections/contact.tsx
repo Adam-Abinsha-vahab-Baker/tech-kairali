@@ -11,8 +11,8 @@ export function ContactSection() {
             Contact Us
           </h2>
           <p className="text-xl text-center text-green-800 mb-12 max-w-2xl mx-auto">
-            At Tech Kairali Chitfund, we pride ourselves on providing transparent and reliable chit fund solutions.
-            Our experienced team is here to help you find the best plan tailored to your financial needs.
+            At Tech Kairali Finance, we pride ourselves on providing fast and transparent business loan solutions.
+            Our experienced team is here to help you find the right loan tailored to your business needs.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -33,7 +33,7 @@ export function ContactSection() {
                 <h3 className="text-2xl font-bold text-green-950">Location</h3>
               </div>
               <p className="text-lg text-green-800 mb-2">
-                Tech Kairali Chitfund Pvt. Ltd.
+                Tech Kairali Finance
               </p>
               <p className="text-gray-600">
                 SRA 29, Aman Vadakkumbhagam,

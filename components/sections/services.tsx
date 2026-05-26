@@ -1,26 +1,32 @@
 'use client'
 
 import { motion } from 'framer-motion';
-import { Landmark, Building2, Shield } from 'lucide-react';
+import { Landmark, Building2, Shield, Gem } from 'lucide-react';
 
 const services = [
   {
-    title: 'Systematic Savings',
-    description: 'Join our community of savers with fixed monthly contributions. Our structured approach helps you build a robust financial future.',
+    title: 'Working Capital Loans',
+    description: 'Get quick access to funds to cover day-to-day business expenses, manage cash flow gaps, and keep your operations running smoothly.',
     icon: Landmark,
     color: 'text-green-600',
   },
   {
-    title: 'Fund Auctions',
-    description: 'Access pooled funds through our transparent auction system. Get the financial boost you need when you need it most.',
+    title: 'Business Expansion Loans',
+    description: 'Scale your business with financing for new equipment, inventory, hiring, or opening a new location — on terms that work for you.',
     icon: Building2,
     color: 'text-green-600',
   },
   {
-    title: 'Low-Interest Alternative',
-    description: 'Experience freedom from high-interest rates of conventional loans. Our chit funds offer a cost-effective way to manage your finances.',
+    title: 'Low-Interest Micro Loans',
+    description: 'Affordable micro loans for small and emerging businesses. Minimal paperwork, fast approval, and fair interest rates tailored to your needs.',
     icon: Shield,
     color: 'text-green-600',
+  },
+  {
+    title: 'Gold Loans',
+    description: 'Unlock the value of your gold jewellery instantly. Get a high loan-to-value ratio, low interest rates, and same-day disbursal with your gold as collateral.',
+    icon: Gem,
+    color: 'text-yellow-600',
   },
 ];
 
@@ -36,7 +42,7 @@ export function ServicesSection() {
           >
             What We Offer
           </motion.h2>
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             {services.map((service, index) => (
                 <motion.div
                     key={index}

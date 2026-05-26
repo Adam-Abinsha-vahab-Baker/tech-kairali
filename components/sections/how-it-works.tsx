@@ -5,18 +5,18 @@ import { ContributionIcon, AuctionIcon, FundsIcon } from './custom-icons';
 
 const steps = [
   {
-    title: 'Monthly Fixed Contributions',
-    description: 'Members contribute a fixed amount each month, building a collective fund for the group.',
+    title: 'Apply Online or In-Person',
+    description: 'Fill out our simple loan application with basic business and personal details. Takes less than 10 minutes.',
     icon: ContributionIcon,
   },
   {
-    title: 'Fund Pooling & Auctions',
-    description: 'Contributions are pooled and auctioned to members, allowing for transparent fund distribution.',
+    title: 'Quick Review & Approval',
+    description: 'Our team reviews your application and gets back to you within 48 hours with a loan offer tailored to your needs.',
     icon: AuctionIcon,
   },
   {
-    title: 'Access to Liquid Funds',
-    description: 'Auction winners receive funds to meet their financial needs, while others continue saving.',
+    title: 'Funds Disbursed Fast',
+    description: 'Once approved, funds are transferred directly to your account so you can put them to work immediately.',
     icon: FundsIcon,
   },
 ];

@@ -1,10 +1,10 @@
 import { CheckCircle } from 'lucide-react';
 
 const points = [
-  'Reliability: A trusted platform backed by years of experience',
-  'Transparency: Fully compliant with the Chit Funds Act, 1982',
-  'Community Trust: Serving Kerala with integrity',
-  'Professional Management: Expert financial guidance',
+  'Reliability: A trusted lending platform backed by years of experience',
+  'Transparency: Clear loan terms with no hidden fees or charges',
+  'Community Focus: Committed to empowering small businesses across Kerala',
+  'Expert Support: Dedicated financial advisors to guide every step',
 ];
 
 export function WhyUsSection() {

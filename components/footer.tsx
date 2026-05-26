@@ -17,7 +17,7 @@ export default function Footer() {
                   className="mb-4 brightness-0 invert"
               />
               <p className="text-xs text-green-300 text-center  md:text-left">
-                your trusted partner for all your financial needs.
+                your trusted partner for small business loans.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-green-700 text-center text-sm text-green-300">
-            <p>© {new Date().getFullYear()} Tech Kairali Chitfund Pvt. Ltd. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Tech Kairali Finance All rights reserved.</p>
             <p className="mt-2">
               <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link> |
               <Link href="#" className="hover:text-white transition-colors ml-2">Terms of Service</Link>

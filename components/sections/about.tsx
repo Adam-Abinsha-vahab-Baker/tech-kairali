@@ -26,7 +26,7 @@ export function AboutSection() {
           >
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
               <span className="text-green-300">About</span>{' '}
-              <span className="text-white">Tech Kairali</span>
+              <span className="text-white">Tech Kairali Finance</span>
             </h2>
           </motion.div>
 
@@ -57,11 +57,11 @@ export function AboutSection() {
                 className="space-y-6"
             >
               <p className="text-lg leading-relaxed text-green-100">
-                Tech Kairali Chitfund Pvt. Ltd. offers a hassle-free financial solution through its reliable and transparent chit fund schemes in Kerala.
+                Tech Kairali Finance provides fast, affordable small business loans designed to help entrepreneurs and small businesses in Kerala grow, expand, and thrive.
               </p>
 
               <p className="text-lg leading-relaxed text-green-100">
-                Operating under the guidelines of the Chit Funds Act, 1982, we emphasize transparency and community trust to serve as a trusted financial partner.
+                We operate with full transparency and compliance, offering simple, low-interest loan products tailored to the real needs of small and micro businesses across the region.
               </p>
 
               <AnimatePresence>
@@ -74,7 +74,7 @@ export function AboutSection() {
                         className="overflow-hidden"
                     >
                       <p className="text-lg leading-relaxed text-green-100">
-                        Our mission is to empower individuals and businesses with flexible savings options and timely financial assistance. With a strong focus on customer satisfaction, we strive to make chit funds an accessible and beneficial financial tool for all.
+                        Our mission is to empower small business owners with quick access to working capital, equipment financing, and growth loans — with minimal paperwork, fair interest rates, and a team that genuinely cares about your success.
                       </p>
                     </motion.div>
                 )}
